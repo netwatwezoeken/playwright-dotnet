@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright/dotnet:v1.30.0-focal
+FROM mcr.microsoft.com/playwright/dotnet:v1.31.0-focal
 
 RUN wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
 RUN chmod +x ./dotnet-install.sh
